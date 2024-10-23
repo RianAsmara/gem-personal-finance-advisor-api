@@ -1,0 +1,10 @@
+{"@timestamp":"2024-08-09T21:55:12+07:00","level":"info","message":"Request Body {\"Name\":\"rizki\"}"}
+{"@timestamp":"2024-08-09T21:55:12+07:00","level":"info","message":"Request Url https://httpbin.org/post"}
+{"@timestamp":"2024-08-09T21:55:12+07:00","level":"info","message":"Request Method POST"}
+{"@timestamp":"2024-08-09T21:55:12+07:00","level":"info","message":"Request Header map[Content-Type:[application/json] X-Key:[123456]]"}
+{"@timestamp":"2024-08-09T21:55:15+07:00","level":"info","message":"Received response for https://httpbin.org/post in 3659 ms"}
+{"@timestamp":"2024-08-09T21:55:15+07:00","level":"info","message":"Response Header map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Connection:[keep-alive] Content-Length:[471] Content-Type:[application/json] Date:[Fri, 09 Aug 2024 14:55:15 GMT] Server:[gunicorn/19.9.0]]"}
+{"@timestamp":"2024-08-09T21:55:15+07:00","level":"info","message":"Response Http Status 200 OK"}
+{"@timestamp":"2024-08-09T21:55:15+07:00","level":"info","message":"Response Http Version HTTP/1.1"}
+{"@timestamp":"2024-08-09T21:55:15+07:00","level":"info","message":"Response Body {\n  \"args\": {}, \n  \"data\": \"{\\\"Name\\\":\\\"rizki\\\"}\", \n  \"files\": {}, \n  \"form\": {}, \n  \"headers\": {\n    \"Accept-Encoding\": \"gzip\", \n    \"Content-Length\": \"16\", \n    \"Content-Type\": \"application/json\", \n    \"Host\": \"httpbin.org\", \n    \"User-Agent\": \"Go-http-client/1.1\", \n    \"X-Amzn-Trace-Id\": \"Root=1-66b62dd2-02d05e793b0226af012e886c\", \n    \"X-Key\": \"123456\"\n  }, \n  \"json\": {\n    \"Name\": \"rizki\"\n  }, \n  \"origin\": \"103.177.96.28\", \n  \"url\": \"https://httpbin.org/post\"\n}\n"}
+{"@timestamp":"2024-08-09T21:55:15+07:00","level":"info","message":"log response service map[args:map[] data:{\"Name\":\"rizki\"} files:map[] form:map[] headers:map[Accept-Encoding:gzip Content-Length:16 Content-Type:application/json Host:httpbin.org User-Agent:Go-http-client/1.1 X-Amzn-Trace-Id:Root=1-66b62dd2-02d05e793b0226af012e886c X-Key:123456] json:map[Name:rizki] origin:103.177.96.28 url:https://httpbin.org/post]"}

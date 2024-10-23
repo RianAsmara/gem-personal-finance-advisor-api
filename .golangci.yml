@@ -1,0 +1,14 @@
+linters:
+  enable:
+    - govet
+    - golint
+    - errcheck
+    - staticcheck
+    - unused
+    - typecheck
+    - stylecheck
+
+issues:
+  exclude-rules:
+    - path: _test\.go
+      text: "test files"
